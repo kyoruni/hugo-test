@@ -3,7 +3,7 @@
 HUGO お試しリポジトリ
 
 ## 使い方
-- コンテナ起動してから、`http://localhost:1313/` にアクセス
+- コンテナ起動してから、`http://localhost:1313/hugo-test` にアクセス
 
 ```bash
 $ docker compose up -d
