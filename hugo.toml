@@ -1,4 +1,4 @@
 baseURL = 'https://kyoruni.github.io/hugo-test'
-languageCode = 'en-us'
+languageCode = 'ja-jp'
 title = 'My New Hugo Site'
 theme = 'ananke'
