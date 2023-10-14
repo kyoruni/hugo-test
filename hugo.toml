@@ -1,4 +1,28 @@
 baseURL = 'https://kyoruni.github.io/hugo-test'
 languageCode = 'ja-jp'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = '@kyoruni'
+theme = 'lynx'
+
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "@kyoruni"
+  headline = "ゲーム/読書/人生"
+  image = "icon.jpeg"  # path relative to static directory
+
+  links = [
+    { link = { href = "https://kyoruni.hatenablog.com/", text = "Blog" } },
+    { twitter = "https://twitter.com/kyoruni" },
+    { github = "https://github.com/kyoruni" },
+    { pixiv = { href = "https://www.pixiv.net/users/310458", text = "pixiv" } },
+    { instagram = "https://instagram.com/kyoruni" },
+    { mastodon = { href = "https://pawoo.net/@kyoruni", text = "Mastodon(pawoo.net)" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
